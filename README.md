@@ -4,8 +4,9 @@ ocr program
 ## How to use? 
 
 the src have the source code, simply do make will generate the correct binary. 
-It's a server based program, unlike orignal GOCR program. The clinet program is in tool, also with the example pictures.
-
+It's a server based program, add -server as flag, unlike orignal GOCR program. The clinet program is in tool, also with the example pictures.
+For normal use, simply do ./popcorn-gocr -i $imput_file
+For server test use, do ./popcorn-gocr -server     serer test use needs a clinet.
 
 ### Before running
 
